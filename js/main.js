@@ -1,5 +1,12 @@
 $(document).ready(function(){
     
+    // YURI - add a sneaky script that always updates website ... at least in theory 
+    $(".dateTime").text(function(){
+        var dateObj = new Date();
+        var year = dateObj.getUTCFullYear();
+        return year;
+    });
+
     $('.features div:last, .newsletters div:last, .about-work > div:last, .team > div:last, .related-post > div:last').addClass('last');
     
     $('a[data-rel]').each(function() {
@@ -206,5 +213,5 @@ $('#slider').flexslider({
 	// SOUND CLOUD PLAYER
 	$.html5audio('#componentWrapper', ap_settings, 'sound_id1');
 	ap_settings = null;
-    
+
 });
