@@ -32,8 +32,109 @@
     <script src="js/jquery.1.8.0.min.js"></script>
     <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    
+    <!-- this is the audio player -->
+    <link rel="stylesheet" type="text/css" href="css/html5audio.css" />
+    <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
+    <script type="text/javascript" src="js/soundmanager2.js"></script>
+    <script type="text/javascript" src="js/inlineplayer.js"></script> 
+    <script type="text/javascript" src="js/jquery.html5audio.min.js"></script>
+    <script type="text/javascript" src="js/jquery.apPlaylistManager.min.js"></script>
+    <script type="text/javascript" src="js/jquery.apTextScroller.min.js"></script>
+
     <script type="text/javascript" src="js/main.js"></script> 
     <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+
+    <script type="text/javascript">
+        
+        function audioPlayerSetupDone(){
+        }
+        
+        // SETTINGS
+        var ap_settings = {
+            /* activePlaylist: set active playlist that will be loaded on beginning (pass element 'id' attributte) */
+            activePlaylist: 'eileencoyle',
+            soundcloudApiKey: 'b73beaa23ad303b1deaf9ba7fe85ebb2',
+
+            /*defaultVolume: 0-1 (Irrelevant on ios mobile) */
+            defaultVolume:0.2,
+            /*autoPlay: true/false (false on mobile by default, important!) */
+            autoPlay:true,
+            /*randomPlay: true/false */
+            randomPlay:false,
+            /*loopingOn: true/false (loop on the end of the playlist) */
+            loopingOn:true,
+            
+            /* addNumbersInPlaylist: true/false. Prepend numbers in playlist items. */
+            addNumbersInPlaylist: true,
+            
+            /* useSongNameScroll: true/false. Use song name scrolling. */
+            useSongNameScroll: false,
+            
+            /* useRollovers: use button rollovers, true/false. */
+            useRollovers:true,
+            /* buttonsUrl: url of the buttons for normal and rollover state, so I dont hardcode them in jquery (rollover state is optional). */
+            buttonsUrl: {prev: 'images/audioplayer/prev.png', prevOn: 'images/audioplayer/prev_on.png', 
+                         next: 'images/audioplayer/next.png', nextOn: 'images/audioplayer/next_on.png', 
+                         pause: 'images/audioplayer/pause.png', pauseOn: 'images/audioplayer/pause_on.png',
+                         play: 'images/audioplayer/play.png', playOn: 'images/audioplayer/play_on.png',
+                         volume: 'images/audioplayer/volume.png', volumeOn: 'images/audioplayer/volume_on.png', 
+                         mute: 'images/audioplayer/mute.png', muteOn: 'images/audioplayer/mute_on.png', 
+                         loop: 'images/audioplayer/loop.png', loopOn: 'images/audioplayer/loop_on.png',
+                         shuffle: 'images/audioplayer/shuffle.png', shuffleOn: 'images/audioplayer/shuffle_on.png'}
+        };
+        soundManager.allowScriptAccess = 'always';
+        soundManager.debugMode = false;
+        soundManager.noSWFCache = true;
+        soundManager.useConsole = false;
+        soundManager.waitForWindowLoad = true;
+        soundManager.url = 'swf/';//path to flash files
+        soundManager.flashVersion = 9;
+        soundManager.preferFlash = false; 
+        soundManager.useHTML5Audio = true;
+        var audio = document.createElement('audio'), mp3Support, oggSupport;
+        if (audio.canPlayType) {
+           mp3Support = !!audio.canPlayType && "" != audio.canPlayType('audio/mpeg');
+           oggSupport = !!audio.canPlayType && "" != audio.canPlayType('audio/ogg; codecs="vorbis"');
+        }else{
+            //for IE<9
+            mp3Support = true;
+            oggSupport = false;
+        }
+        //console.log('mp3Support = ', mp3Support, ' , oggSupport = ', oggSupport);
+        
+        /*
+        FF - false, true
+        OP - false, true
+        
+        IE9 - true, false 
+        SF - true, false 
+        
+        CH - true, true
+        */
+    
+        soundManager.audioFormats = {
+          'mp3': {
+            'type': ['audio/mpeg; codecs="mp3"', 'audio/mpeg', 'audio/mp3', 'audio/MPA', 'audio/mpa-robust'],
+            'required': mp3Support
+          },
+          'mp4': {
+            'related': ['aac','m4a'],
+            'type': ['audio/mp4; codecs="mp4a.40.2"', 'audio/aac', 'audio/x-m4a', 'audio/MP4A-LATM', 'audio/mpeg4-generic'],
+            'required': false
+          },
+          'ogg': {
+            'type': ['audio/ogg; codecs=vorbis'],
+            'required': oggSupport
+          },
+          'wav': {
+            'type': ['audio/wav; codecs="1"', 'audio/wav', 'audio/wave', 'audio/x-wav'],
+            'required': false
+          }
+        };
+        
+    </script>
     
 </head>
 
@@ -81,6 +182,41 @@
         
   <div class="clear"></div>
     <div class="divider"></div>
+
+    <div class="one-two">
+        <h1>Listen To Eileen Coyle</h1>
+
+        <div id="componentWrapper">        
+             <div class="playerHolder">                 
+                  <div class="player_controls">
+                      <div class="controls_prev"><img src='images/audioplayer/prev.png' width='25' height='26' alt='controls_prev'/></div>
+                      <div class="controls_toggle"><img src='images/audioplayer/play.png' width='30' height='31' alt='controls_toggle'/></div>
+                      <div class="controls_next"><img src='images/audioplayer/next.png' width='25' height='26' alt='controls_next'/></div>
+                      <div class="player_volume"><img src='images/audioplayer/volume.png' width='25' height='26' alt='player_volume'/></div>
+                      <div class="volume_seekbar">
+                         <div class="volume_bg"></div>
+                         <div class="volume_level"></div>
+                      </div>
+                  </div>
+                  <div class="player_progress">
+                      <div class="progress_bg"></div>
+                      <div class="load_progress"></div>
+                      <div class="play_progress"></div>
+                  </div>
+                  <div class="player_mediaName_Mask"><h5><span class="plTitle">Now Playing:</span></h5> 
+                      <div class="player_mediaName">Artist Name - Artist Title</div>
+                  </div>             
+             </div>              
+             <div class="playlistHolder">
+                 <div class="componentPlaylist">
+                     <div class="playlist_inner">
+                         <ul id='eileencoyle' data-type='soundcloud' data-path='http://soundcloud.com/irishweddingsinger/tracks' ></ul>                          
+                     </div>
+                 </div>
+             </div>
+            <div class="fontMeasure"></div>
+        </div>  
+    </div>
 
     <!--BEGIN: .testimonial-->
     <div class="one-two">
@@ -142,7 +278,7 @@
     
     <div class="clear hide"></div>
     <div class="divider hide"></div>
-    
+    <!--
     <div class="one-two last">    
         <h3>Audio Samples (More samples on about page)</h3>
         <div class="divider-text">
@@ -171,7 +307,7 @@
                     </li>                                                                         
                 </ul>
             </div>
-        </div><!-- END: #newsletters -->  
+        </div>
         <script type="text/javascript">
             $(document).ready(function(){
                 $('#newsletters').elastislide({
@@ -181,6 +317,7 @@
             });
         </script>
     </div>
+    -->
 
         <div class="clear"></div> 
         
