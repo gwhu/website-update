@@ -57,7 +57,6 @@ a:hover{color:#ede5db;}
 #menu > li > a{color:#858585;text-transform:uppercase;font-size:12px;font-weight:bold;display:block;font-family:'Arial', sans-serif;}
 #menu > li > a:hover,
 #menu > li > a.current{color:#f9a7b0;}
-#menu > li > a:after{color:#4D4D4D;content:attr(data-description);display:block !important;line-height:0;margin-top:5px;text-transform:capitalize;font-weight:normal;font-size:10px;font-style:italic;font-family:'Droid Serif', serif;}
 #menu ul{position:absolute;width:170px;padding:0 15px;background-color:#1E1E1E;border-top:2px solid #f9a7b0;box-shadow:0 2px 5px rgba(0, 0, 0, 0.3);}
 #menu ul li{position:relative;border-bottom:1px solid #262626;}
 #menu ul li:last-child{border-bottom:medium none;}
