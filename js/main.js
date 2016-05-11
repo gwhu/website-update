@@ -211,7 +211,12 @@ $('#slider').flexslider({
 	
 	
 	// SOUND CLOUD PLAYER
-	$.html5audio('#componentWrapper', ap_settings, 'sound_id1');
-	ap_settings = null;
+	try {
+        $.html5audio('#componentWrapper', ap_settings, 'sound_id1');
+    	ap_settings = null;
+    }
+    catch(err) {
+
+    }
 
 });
