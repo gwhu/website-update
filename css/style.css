@@ -1,4 +1,3 @@
-#top{position:fixed;top:0;left:0;z-index:999;width:100%;height:45px;background:url(../images/topLace.png)top left repeat-x;}
 .auTitle{padding-left:24px;font-size:14px;}
 .author{font-size:16px;font-family:'Rokkitt', serif;color:#f9a7b0;padding-bottom:20px;}
 .plTitle{padding-left:26px;font-size:14px;color:#f9a7b0;}
@@ -36,9 +35,9 @@ a:hover{color:#ede5db;}
 .aligncenter{text-align:center;}
 .hide{display:none;}
 .wrapper{width:1140px;margin:0 auto;}
-#content{padding:30px;background-color:#222222;}
+#content{padding:30px;background-color:#dfd7b3;}
 .width{width:1170px;}
-#header{margin:0 auto;padding:15px 30px 15px 30px;position:relative;background-color:#222222;}
+#header{margin:0 auto;padding:15px 30px 15px 30px;position:relative;background-color:#dfd7b3;}
 #logo{float:left;margin-left:-10px;}
 #social{float:right;margin-top:10px;}
 #social li{float:left;margin-left:10px;}
@@ -257,7 +256,7 @@ option{background-color:#333333;font-weight:bold;color:#f9a7b0;}
 .related-post p{margin-bottom:5px;}
 .related-post a.link-title{padding-bottom:5px;}
 .related-post .meta{margin-bottom:0;padding-bottom:0;border-bottom:none;}
-#footer{position:relative;padding:30px 30px 0 30px;background-color:#1c1c1c;color:#858585;}
+#footer{position:relative;padding:30px 30px 0 30px;background-color:#151006;color:#858585;}
 #footer h3{margin-bottom:15px !important;font-size:16px;color:#DDDDDD !important;}
 #footer a{color:#858585;}
 #footer a:hover{color:#ede5db;}
@@ -273,7 +272,7 @@ option{background-color:#333333;font-weight:bold;color:#f9a7b0;}
 #search input[type="text"]{color:#777;width:240px;height:30px;padding:0 10px;line-height:30px;font-size:10px;background-color:#191919;border:1px solid #202020;}
 #search input[type="text"]:focus{background-color:#151515;border:1px solid #131313;}
 #search .search-bt{top:1px;right:10px;height:30px;width:20px;cursor:pointer;position:absolute;border:none !important;background:url(../images/search.png) no-repeat center center;}
-.footer-buttom{width:1140px;padding:0 30px;margin:-30px 0 0 -30px;color:#777 !important;background-color:#191919;border-top:1px solid #212121;}
+.footer-buttom{width:1140px;padding:0 30px;margin:-30px 0 0 -30px;color:#777 !important;background-color:#151006;border-top:1px solid #212121;}
 .footer-buttom p{float:left;padding:23px 0;font-size:14px;margin:0 !important;display:inline-block;font-family:'Rokkitt', serif;}
 .footer-buttom a{font-size:14px;margin:0 !important;display:inline-block;font-family:'Rokkitt', serif;}
 .footer-buttom a:hover{color:#f9a7b0;}
