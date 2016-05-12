@@ -105,7 +105,7 @@ html[xmlns] .slides{display:block;}
 .divider-text{height:1px;margin-bottom:25px;border-bottom:1px dashed #303030;}
 .divider-text a{display:block;float:right;padding-left:15px;background-color:#222222;margin-top:-9px;color:#999;font-size:12px;font-weight:bold;}
 .divider-text a:hover{color:#f9a7b0;}
-.divider-text a.margin-l{padding-right:45px;}
+.divider-text a.margin-l{padding-right:120px;}
 .latest-blog{width:585px;}
 .latest-blog div{float:left;margin-right:30px;margin-bottom:22px;width:262px;}
 .latest-blog div:nth-last-child(-n+2){margin-bottom:0;}
@@ -117,7 +117,7 @@ html[xmlns] .slides{display:block;}
 .carousel-wrapper ul{display:none;}
 .carousel-wrapper ul li{height:100%;float:left;display:block;}
 .carousel .es-nav{position:absolute;top:-31px;right:0px;background-color:#222222;padding-left:10px;}
-.carousel .es-nav span{display:inline-block;width:15px;height:15px;text-indent:-9999px;cursor:pointer;}
+.carousel .es-nav span{display:inline-block;width:40px;height:15px;text-indent:-9999px;cursor:pointer;}
 .carousel .es-nav-prev{background:url(../images/arrow-content-left.png) no-repeat center bottom;}
 .carousel .es-nav-next{background:url(../images/arrow-content-right.png) no-repeat center bottom;}
 .carousel .es-nav-prev:hover, .carousel .es-nav-next:hover{background-position:0 -15px;}
