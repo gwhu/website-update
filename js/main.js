@@ -183,7 +183,7 @@ $(window).load(function() {
 $('#slider').flexslider({
         animation: "fade",
         slideshow: true, 
-        slideshowSpeed: 8000,
+        slideshowSpeed: 4000,
         animationDuration: 600,   
         directionNav: false,
         controlNav: false,
@@ -199,7 +199,7 @@ $('#slider').flexslider({
 	    $('#abt-slider').flexslider({
         animation: "fade",
         slideshow: true, 
-        slideshowSpeed: 8000,
+        slideshowSpeed: 4000,
         animationDuration: 600,   
         directionNav: false,
         controlNav: false,
