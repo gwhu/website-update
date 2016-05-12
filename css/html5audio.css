@@ -203,7 +203,7 @@
 	left:10px;
 	width:0px;
 	height:6px;
-	background:#f9a7b0;
+	background:#ef7a87;
 }
 
 #componentWrapper .player_progress_tooltip{
@@ -286,13 +286,13 @@
 
 /* adjust rollover on playlist item */
 #componentWrapper .componentPlaylist .playlistItem a:hover{
-	color: #f9a7b0;
+	color: #ef7a87;
 }
 
 /* adjust disabled state on playlist item */
 #componentWrapper .playlistSelected {
 	float:left;
-	color: #f9a7b0;
+	color: #ef7a87;
 }
 
 /* adjust normal state on playlist item */
