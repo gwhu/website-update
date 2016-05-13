@@ -1,8 +1,8 @@
 
 
 /* wrapper for player and playlist */
-.player-small {height:100px;overflow:hidden;}
-.player-large {height:200px;overflow:hidden;}
+.player-small {height:200px;overflow:hidden;}
+.player-large {height:500px;overflow:hidden;}
 .player-large .playlistHolder {overflow:scroll;}
 
 #componentWrapper{
