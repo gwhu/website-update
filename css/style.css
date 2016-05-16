@@ -18,6 +18,7 @@ p{margin-bottom:15px;}
 .color{color:#ede5db;}
 a{font-size:14px;color:#F96172;font-family:'Rokkitt', serif;text-decoration:none;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear;}
 a:hover{color:#ef2a47 !important;}
+.linkButton{padding:3px 0px 3px 0px;border-bottom:1px solid rgba(249,147,14,0.3);}
 .read{padding-right:15px;display:inline-block;text-transform:capitalize;background:url(../images/arrow-readmore-hover.png) no-repeat center right;}
 .read:hover{background:url(../images/arrow-readmore.png) no-repeat center right;}
 .link-title{font-size:16px;line-height:18px;padding-top:5px;display:block;}
