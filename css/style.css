@@ -43,12 +43,12 @@ a:hover{color:#ef2a47 !important;}
 #social li{float:left;margin-left:10px;}
 #social li.first{margin-left:0px;}
 #social a{width:44px;height:45px;display:inline-block;text-indent:-99999px;background-color:transparent;-webkit-transition:none;-moz-transition:none;-o-transition:none;-ms-transition:none;transition:none;}
-#social a.twitter{background:url(../images/icon/twitter.png) 0 -45px;}
-#social a.dribbble{background:url(../images/icon/dribbble.png) 0 -45px;}
-#social a.youtube{background:url(../images/icon/youtube.png) 0 -45px;}
-#social a.vimeo{background:url(../images/icon/vimeo.png) 0 -45px;}
-#social a.facebook{background:url(../images/icon/facebook.png) 0 -45px;}
-#social a:hover{background-position:center top;}
+#social a.twitter{background:url(../images/icon/twitter.png) 0 -0px;}
+#social a.dribbble{background:url(../images/icon/dribbble.png) 0 -0px;}
+#social a.youtube{background:url(../images/icon/youtube.png) 0 -0px;}
+#social a.vimeo{background:url(../images/icon/vimeo.png) 0 -0px;}
+#social a.facebook{background:url(../images/icon/facebook.png) 0 -0px;}
+#social a:hover{background-position:center bottom;}
 .res-menu{display:none;}
 #menu{display:block;float:right;margin-top:-86px;padding-top:20px;border-top:0px solid #303030;}
 #menu > li{float:left;margin-right:30px;position:relative;}
