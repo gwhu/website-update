@@ -23,11 +23,11 @@
 /* player audio name */
 #componentWrapper .player_mediaName{
 	position:absolute;
-	top:1px;
+	top:-1px;
 	left:100px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:12px;
-	color:#fff;
+	color:#666;
 	padding:0 0 20px 14px;
 }
 
@@ -133,7 +133,7 @@
 	left:10px;
 	width:50px;
 	height:6px;
-	background:#333333;
+	background:#CECECE;
 }
 
 #componentWrapper .volume_level{
@@ -142,7 +142,7 @@
 	left:10px;
 	width:0px;
 	height:6px;
-	background:#ffffff;
+	background:#F96172;
 }
 
 #componentWrapper .player_volume_tooltip{
@@ -185,7 +185,7 @@
 	left:10px;
 	width:99%;
 	height:6px;
-	background: #222;
+	background: #CECECE;
 }
 
 #componentWrapper .load_progress{
@@ -194,7 +194,7 @@
 	left:10px;
 	width:0px;
 	height:6px;
-	background:#444444;
+	background:#CECECE;
 }
 
 #componentWrapper .play_progress{
@@ -203,7 +203,7 @@
 	left:10px;
 	width:0px;
 	height:6px;
-	background:#ef7a87;
+	background:#9c80b1;
 }
 
 #componentWrapper .player_progress_tooltip{
@@ -252,7 +252,7 @@
 /* playlist holder for playlist items */	
 #componentWrapper .playlist_inner{
 	position:relative;
-	top:0px;
+	top:15px;
 	left:0px;
 	height:auto;
 	margin-bottom:30px;
@@ -286,19 +286,19 @@
 
 /* adjust rollover on playlist item */
 #componentWrapper .componentPlaylist .playlistItem a:hover{
-	color: #ef7a87;
+	color: #F96172;
 }
 
 /* adjust disabled state on playlist item */
 #componentWrapper .playlistSelected {
 	float:left;
-	color: #ef7a87;
+	color: #F96172;
 }
 
 /* adjust normal state on playlist item */
 #componentWrapper .playlistNonSelected {
 	float:left;
-	color: #ffffff;
+	color: #666;
 }
 
 
