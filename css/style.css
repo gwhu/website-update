@@ -1,12 +1,12 @@
 .auTitle{padding-left:24px;font-size:14px;}
-.author{font-size:16px;font-family:'Rokkitt', serif;color:#F96172;padding-bottom:20px;}
+.author{font-size:16px;font-family:'Rokkitt', serif;color:#D65353;padding-bottom:20px;}
 .plTitle{padding-left:26px;font-size:14px;color:#F96172;}
 body{background-color:#3e3631;color:#746251;font-size:12px;line-height:20px;font-family:'Arial', sans-serif;}
 h1, h2, h3, h4, h5, h6{font-weight:bold;font-family:'Rokkitt', serif;}
-h1{font-size:24px;margin-bottom:30px;line-height:30px;color:#F96172;}
-h2{font-size:20px;margin-bottom:20px;line-height:25px;color:#F96172;}
+h1{font-size:24px;margin-bottom:30px;line-height:30px;color:#D65353;}
+h2{font-size:20px;margin-bottom:20px;line-height:25px;color:#D65353;}
 h3{font-size:18px;margin-bottom:10px;line-height:25px;color:#746251;}
-h4{font-size:16px;margin-bottom:8px;line-height:22px;color:#746251;}
+h4{font-size:16px;margin-bottom:8px;line-height:22px;color:#D65353;}
 h5{font-family:'Rokkitt', serif;font-size:14px;margin-bottom:5px;line-height:20px;color:#433324;}
 h6{font-size:12px;margin-bottom:3px;line-height:18px;color:#746251;}
 h2.title{font-size:16px;font-weight:normal;margin-bottom:8px;padding-bottom:0;}
@@ -125,7 +125,7 @@ html[xmlns] .slides{display:block;}
 #client-logo li{float:left;line-height:0 !important;width:16.66666666666667%;text-align:center;}
 #testimonial li div{overflow:hidden;width:15%;-webkit-border-radius:50px;border-radius:50px;float:left;margin-right:30px;padding:0!important;line-height:0;-moz-box-sizing:border-box;}
 #testimonial .testimonial{padding-top:5px;margin-bottom:5px;line-height:22px;font-size:12px;font-style:italic;font-family:'Droid Serif', serif;}
-#testimonial .client{color:#F96172;font-family:'Rokkitt', serif;font-size:14px;font-weight:bold;font-family:'Rokkitt', Georgia, Times, serif;}
+#testimonial .client{color:#D65353;font-family:'Rokkitt', serif;font-size:14px;font-weight:bold;font-family:'Rokkitt', Georgia, Times, serif;}
 #newsletters .graphic img{overflow:hidden;width:15%;-webkit-border-radius:50px;border-radius:50px;float:left;margin-right:30px;padding:0!important;line-height:0;-moz-box-sizing:border-box;}
 #newsletters .graphic a{padding-bottom:5px;}
 #newsletters .graphic p.news-date{color:#888888;font-size:10px;margin-bottom:0px;padding-top:5px;text-transform:uppercase;}
@@ -171,9 +171,8 @@ html[xmlns] .slides{display:block;}
 .tab-page{padding-top:5px;}
 #sidebar{width:424px;}
 #sidebar h3{font-size:16px;margin-bottom:20px;padding-bottom:10px;border-bottom:1px dashed #303030;}
-#sidebar .sbox{padding:30px;margin-bottom:40px;background-color:#252525;border:1px solid #2B2B2B;box-shadow:0 1px 2px 0px #1F1F1F;}
-#sidebar .sbox img{background-color:#262626;}
-#sidebar li{padding:5px;border-bottom:1px dotted #373737}
+#sidebar .sbox{padding:30px;margin-bottom:40px;box-shadow:0 1px 2px 0px #a99b9b;}
+#sidebar li{padding:5px;}
 .s-tweet{position:relative;}
 .s-tweet li{padding:15px !important;}
 .s-tweet .tweet_list li:last-child{border-bottom:none !important;margin-bottom:0 !important;padding-bottom:0 !important;}
@@ -186,7 +185,7 @@ html[xmlns] .slides{display:block;}
 .s-tab .tab-sidebar li.last{margin-right:0;}
 .s-tab .tab-sidebar li.active,
 .s-tab .tab-sidebar li:hover{border-bottom:1px solid #F96172 !important;padding-bottom:10px;color:#F96172;}
-.s-tab img{float:left;margin-right:15px;}
+.s-tab img{float:left;margin-right:15px;opacity:0.8;}
 .s-tab .tab li{margin-bottom:10px;padding-bottom:15px !important;}
 .tab{display:none;}
 .tab.visible{display:block;}
@@ -194,17 +193,17 @@ html[xmlns] .slides{display:block;}
 .tab img:last-child{margin-bottom:0 !important;}
 .sbox .tab p{margin-bottom:0!important;}
 #form-contact .left{float:left;width:208px;color:#999;margin-right:30px;display:inline-block;font-size:13px;font-weight:bold;font-family:'Rokkitt', serif;letter-spacing:0.03em;}
-#form-contact .left input{color:#ede5db;font-size:14px !important;width:198px;padding:5px;box-shadow:none;margin-top:10px;font-family:'Rokkitt', serif;letter-spacing:0.03em;background-color:#191919;border:1px solid #262626;}
+#form-contact .left input{color:#555;font-size:14px !important;width:198px;padding:5px;box-shadow:none;margin-top:10px;font-family:'Rokkitt', serif;letter-spacing:0.03em;background-color:#CCC;border:1px solid #B0B0B0;}
 #form-contact .left input:focus,
-#form-contact textarea:focus{background-color:#151515;border:1px solid #131313;}
-#form-contact textarea{color:#ede5db;font-size:14px !important;font-family:'Rokkitt', serif;padding:5px;width:676px !important;height:240px !important;overflow:auto;background-color:#191919;border:1px solid #262626;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear;}
+#form-contact textarea:focus{background-color:#C0C0C0;border:1px solid #B0B0B0;}
+#form-contact textarea{color:#555;font-size:14px !important;font-family:'Rokkitt', serif;padding:5px;width:676px !important;height:240px !important;overflow:auto;background-color:#CCC;border:1px solid #B0B0B0;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear;}
 #form-contact .botton{cursor:pointer;padding:10px 30px !important;}
 label.error{color:#F96172;font-size:14px;font-family:'Rokkitt', serif;}
 #contact-form input.error,
 textarea.error{border:1px solid #F96172;}
 #progress{padding:10px;margin-top:15px;border:1px solid #F96172;}
 #progress p{margin-bottom:0 !important;}
-#source{color:#ede5db;font-size:14px !important;font-family:'Rokkitt', serif;line-height:18px;width:198px;padding:5px;box-shadow:none;margin-top:10px;background-color:#191919;border:1px solid #262626;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear;}
+#source{color:#555;height:27px;font-size:14px !important;font-family:'Rokkitt', serif;line-height:18px;width:198px;padding:5px;box-shadow:none;margin-top:10px;background-color:#CCC;border:1px solid #B0B0B0;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear;}
 option{background-color:#333333;font-weight:bold;color:#F96172;}
 .services-description li{padding:3px 0 3px 25px;background:url(../images/menu-arrow-hover.png) no-repeat 0 45%;}
 .num-service{margin-bottom:20px;}
@@ -292,8 +291,7 @@ option{background-color:#333333;font-weight:bold;color:#F96172;}
 #page .one-three{width:208px;}
 #page .one-four{width:149px;}
 img{max-width:100%;height:auto;}
-.border-img{background-color:#292929;border:1px solid #2B2B2B;box-shadow:0 1px 2px 0px #1F1F1F;line-height:0;margin-bottom:10px;padding:5px;position:relative;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;}
-.border-img:hover{background-color:#181818;}
+.border-img{box-shadow:0 1px 6px 0px #a99b9b;line-height:0;margin-bottom:10px;padding:7px;position:relative;-moz-box-sizing:border-box;box-sizing:border-box;overflow:hidden;}
 .border-img.alignleft{margin-right:20px !important;margin-bottom:1px !important;}
 .border-img.alignright{margin-left:20px !important;margin-bottom:1px !important;}
 .border-img.aligncenter{display:table;margin:0 auto 10px;margin-bottom:10px;}
@@ -380,7 +378,7 @@ blockquote-r p{padding:20px;font-size:14px;letter-spacing:0.03em;font:italic 12p
 code, pre{margin-bottom:15px;border:1px dashed #242424;border-left:3px solid #242424;padding:15px;background-color:#1f1f1f;font:11px Consolas,"Courier New",Courier,monospace;line-height:14px;overflow:hidden;margin-top:15px;}
 code:hover, pre:hover{overflow:auto;}
 .highlight{padding:1px 5px;color:#222222;background-color:#F96172;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;font-size:11px;}
-p.dropcap:first-letter{display:block;float:left;font-size:30px;margin:0px 10px 0 0;color:#F96172;font:italic 30px 'Droid Serif', Georgia, Times, serif !important;}
+p.dropcap:first-letter{display:block;float:left;font-size:30px;margin:0px 10px 0 0;color:#D65353;font:italic 30px 'Droid Serif', Georgia, Times, serif !important;}
 p.dropcap2:first-letter,
 p.dropcap3:first-letter{display:block;float:left;font-size:30px;line-height:10px;margin:5px 10px 0 0;padding:10px;color:#ede5db;background-color:#F96172;height:2.2em;font:italic 2.2em/2.2em 'Droid Serif', Georgia, Times, serif !important;}
 p.round:first-letter{-moz-border-radius:33px;-webkit-border-radius:33px;border-radius:33px;}
@@ -420,3 +418,4 @@ p.round:first-letter{-moz-border-radius:33px;-webkit-border-radius:33px;border-r
 .acc-header.active,
 .toggle.active{color:#909090 !important;}
 .songList {margin-bottom:30px;}
+.songList h1 {margin-bottom:15px;}
