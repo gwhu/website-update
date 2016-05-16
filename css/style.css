@@ -115,7 +115,8 @@ html[xmlns] .slides{display:block;}
 .carousel-wrapper{overflow:hidden;padding:2px 2px 0 2px;margin-top:-2px;}
 .carousel-wrapper ul{display:none;}
 .carousel-wrapper ul li{height:100%;float:left;display:block;}
-.carousel .es-nav{position:absolute;top:-31px;right:0px;background-color:#222222;padding-left:10px;}
+#testimonialHeader{margin-top:20px;}
+.carousel .es-nav{position:absolute;top:-31px;right:0px;background-color:#222222;padding-left:10px;display:none;}
 .carousel .es-nav span{display:inline-block;width:40px;height:15px;text-indent:-9999px;cursor:pointer;}
 .carousel .es-nav-prev{background:url(../images/arrow-content-left.png) no-repeat center bottom;}
 .carousel .es-nav-next{background:url(../images/arrow-content-right.png) no-repeat center bottom;}
