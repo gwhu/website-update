@@ -29,7 +29,7 @@
     <link rel="stylesheet" type="text/css" href="css/inlineplayer.css" />
     <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Droid+Serif:400,400italic,700,700italic|Droid+Sans:400,700' rel='stylesheet' type='text/css' />
     
-    <script src="js/jquery.1.8.0.min.js" type="text/javascript"></script>
+    <script src="js/jquery.1.8.0.min.js"></script>
     <link href="css/jQuery-ui-1-11-4.css" type="text/css"/>
     <script src="js/jQuery-ui-1-11-4-min.js" type="text/javascript"></script>
     
@@ -143,6 +143,7 @@
 <!-- BEGIN: #header -->
 <div id="header" class="wrapper"> 
 <p>&nbsp;</p>
+
     <!-- BEGIN: #logo-->
     <a id="logo" href="./index.html"><img src="images/logo2.png" alt="Go back to home page" /></a><!-- END: #logo -->
     
@@ -150,12 +151,12 @@
 
     <!-- BEGIN: #menu -->
     <ul id="menu" class="clearfix">
-    	<li><a href="./index.html" class="current" data-description="Home Page">Home</a></li>
-    	<li><a href="./listen.html" data-description="Listen">Listen</a></li>
-    	<li><a href="./song-list.html" data-description="Songs">Song list</a></li>
+        <li><a href="./index.html" data-description="Home Page">Home</a></li>
+        <li><a href="./listen.html" class="current" data-description="Listen">Listen</a></li>
+        <li><a href="./song-list.html" data-description="Music Page">Song list</a></li>
         <li><a href="./testimonials.html" data-description="Testimonials Page">Testimonials</a></li>
-        <li><a href="./about.html" data-description="Audio Samples">About Eileen</a></li>
-    	<li><a href="./contact.html" data-description="Contact Page">Contact</a></li>
+        <li><a href="./about.html" data-description="About Page">About Eileen</a></li>
+        <li><a href="./contact.html" data-description="Contact Page">Contact</a></li>
         
         <!--<li><a href="./portfolio.html" data-description="other skills">skills</a></li>-->
        
@@ -168,7 +169,7 @@
 <div id="slider" class="wrapper loader">
     <ul class="slides">
         <li>
-            <img src="images/slides/main/main-image.jpg" alt="Photo of wedding"/>
+            <img src="images/slides/main/listen-image.jpg" alt="Images"/>
         </li>      
     </ul>
 </div><!-- END: #slider --> 
@@ -178,25 +179,18 @@
 <!--BEGIN: #content-->
 <div id="content" class="wrapper">
     <div class="welcome">
-        <h1>Wedding Singer Eileen Coyle</h1>
+        <h1>Repertoire</h1>
         <p>
-          Eileen Coyle is a professional soprano based in Dublin with much experience both as a soloist and as a church singer. She has a distinguished repertoire ranging from Classical to Traditional Irish and Modern. She will provide all the support you need to make your event unique and special.  Eileen is available for your church wedding,civil ceremony,champagne reception or funeral and offers competitive prices along with a beautiful performance. One of the most popular female singers in Dublin this year, she has a uniquely pure and clear celtic sound.
+          Distinguished repertoire ranging from Classical to Traditional Irish and Modern. She will provide all the support you need to make your event unique and special.  Eileen is available for your church wedding,civil ceremony,champagne reception or funeral and offers competitive prices along with a beautiful performance. One of the most popular female singers in Dublin this year, she has a uniquely pure and clear celtic sound.
         </p>
-
-        <a href="./about.html" class="linkButton">More about Eileen...</a>
     </div>
         
-<div class="clear"></div>
-<div class="divider"></div>
-
-    <div class="welcome">
-        <h2>Listen To Eileen Coyle</h2>
-    </div>
-
     <div class="clear"></div>
+    <div class="divider"></div>
 
+    <!--BEGIN: .testimonial-->
     <div class="one-one">
-        <div id="componentWrapper" class="player-small">        
+        <div id="componentWrapper" class="player-large">        
              <div class="playerHolder">                 
                   <div class="player_controls">
                       <div class="controls_prev"><img src='images/audioplayer/prev.png' width='25' height='26' alt='controls_prev'/></div>
@@ -226,126 +220,15 @@
              </div>
             <div class="fontMeasure"></div>
         </div>  
+
     </div>
-
-    <div class="divider"></div>
-
-    <div class="welcome">
-        <h2>Testimonials</h2>
-    </div>
-
-    <!--BEGIN: .testimonial-->
-    <div class="one-one">
-    <!--
-        <div class="divider-text">
-            <a href="#" class="margin-l">prev &amp; next</a>
-        </div>
-    -->
-        <div id="testimonial" class="carousel">
-            <div class="carousel-wrapper">
-                <ul>
-                    <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
-                        <p class="testimonial">
-                            Just wanted to say thank you so so much! The music at the wedding was absolutely beautiful, exactly what we wanted!
-                        </p>
-                        <p class="client">Heather</p>
-                    </li><!-- END: testimonial 1 -->  
-                    
-                    <!-- BEGIN: testimonial 2 -->
-                    <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
-                        <p class="testimonial">
-                            You sounded fantastic. You were an integral part of making the ceremony so special!
-                        </p>
-                        <p class="client">Shelly</p>
-                    </li><!-- END: testimonial 2 -->  
-                    
-                    <!-- BEGIN: testimonial 3 -->
-                    <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
-                        <p class="testimonial">
-                           Thanks for all your help and musical knowledge over the past couple of months, it's really appreciated!
-                        </p>
-                        <p class="client">Mary</p>
-                    </li><!-- END: testimonial 3 -->  
-                    
-                    <!-- BEGIN: testimonial 4 -->
-                    <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
-                        <p class="testimonial">
-                            The music was just what we wanted, and helped make the ceremony extra special for both of us!
-                        </p>
-                        <p class="client">Marie</p>
-                    </li><!-- END: testimonial 4 -->  
-                    
-                </ul>
-            </div>
-
-            <div id="testimonialHeader" class="welcome">
-                <a href="./testimonials.html" class="linkButton">More testimonials...</a>
-            </div>
-        </div><!-- END: #testimonials -->  
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('#testimonial').elastislide({
-                    imageW 	: 555,
-                    margin  : 30                    
-                });
-            });
-        </script>
-    </div><!--END: .testimonial-->
-    
-    <div class="clear hide"></div>
-    <div class="divider hide"></div>
-    <!--
-    <div class="one-two last">    
-        <h3>Audio Samples (More samples on about page)</h3>
-        <div class="divider-text">
-            <a href="#" class="margin-l">prev &amp; next</a>
-        </div>
-        <div id="newsletters" class="carousel">
-            <div class="carousel-wrapper">
-                <ul class="graphic">
-                <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
-                        <p class="news-date" style="font-style:normal">Artist: Eileen Coyle</p>
-                         <a href="audio/02.mp3" class="link-title"><span class="auTitle">Moon River - H. Mancini</span></a>
-                        <p>From Eileen's Contemporary Repertoire</p>
-                    </li>
-                    <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
-                        <p class="news-date" style="font-style:normal">Artist: Eileen Coyle</p>
-                         <a href="audio/01.mp3" class="link-title sm2_button"><span class="auTitle">Ave Maria - Shubert</span></a>
-                        <p>From Eileen's Classical Repertoire</p>
-                    </li> 
-                    <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
-                        <p class="news-date" style="font-style:normal">Artist: Eileen Coyle</p>
-                         <a href="audio/03.mp3" class="link-title sm2_button"><span class="auTitle">Nella Fantasia</span></a>
-                        <p>From Eileen's Classical Repertoire</p>
-                    </li>                                                                         
-                </ul>
-            </div>
-        </div>
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $('#newsletters').elastislide({
-                    imageW 	: 555,
-                    margin      : 30                    
-                });
-            });
-        </script>
-    </div>
-    -->
 
     <div class="clear"></div> 
     <div class="divider"></div>
-    
+
     <div class="welcome">
-        <h2>Want to enquire about availability?</h2>
-        
-        <p> <a href="./contact.html" class="linkButton">Contact Eileen</a></p> 
+        <h2>Download</h2>
+        <p><a href="pdfs/Eileen_Coyle_Music_Guide.zip" class="linkButton">Eileen's Wedding Music Guide</a> - Including a complete Repertoire List and Example Ceremonies with Songlists</p>  
     </div>
         
   <div class="clear"></div> 
