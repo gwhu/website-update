@@ -126,6 +126,7 @@ html[xmlns] .slides{display:block;}
 #client-logo{width:1200px;margin:0 auto;background-color:#191919;border-bottom:1px solid #212121;}
 #client-logo li{float:left;line-height:0 !important;width:16.66666666666667%;text-align:center;}
 #testimonial li div{overflow:hidden;width:15%;-webkit-border-radius:50px;border-radius:50px;float:left;margin-right:30px;padding:0!important;line-height:0;-moz-box-sizing:border-box;}
+#testimonial .testimonialPreviewImage {overflow:hidden;width:100px;height:100px;-webkit-border-radius:50px;border-radius:50px;float:left;margin-right:30px;padding:0!important;line-height:0;-moz-box-sizing:border-box;}
 #testimonial .testimonial{padding-top:5px;margin-bottom:5px;line-height:22px;font-size:12px;font-style:italic;font-family:'Droid Serif', serif;}
 #testimonial .client{color:#F96172;font-family:'Rokkitt', serif;font-size:14px;font-weight:bold;font-family:'Rokkitt', Georgia, Times, serif;}
 #newsletters .graphic img{overflow:hidden;width:15%;-webkit-border-radius:50px;border-radius:50px;float:left;margin-right:30px;padding:0!important;line-height:0;-moz-box-sizing:border-box;}

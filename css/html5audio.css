@@ -15,7 +15,7 @@
 #componentWrapper .playerHolder{
 	position:absolute;
 	top:0px;
-	left:0px;
+	left:-10px;
 	width:100%;
 	margin-top:15px;
 }
@@ -179,6 +179,8 @@
 	/*background:green;*/
 }
 
+#homePagePlayer .player_progress{width:75%;}
+
 #componentWrapper .progress_bg{
 	position:absolute;
 	top:5px;
@@ -214,7 +216,7 @@
 	height:16px;
 	background:#333;
 	display:none;
-	
+
 	-moz-box-shadow: 1px 1px 1px #222;
 	-webkit-box-shadow: 1px 1px 1px #222;
 	box-shadow: 1px 1px 1px #222;
@@ -244,7 +246,7 @@
 #componentWrapper .componentPlaylist{
 	position:absolute;
 	top:0px;
-	left:0px;
+	left:-10px;
 	width:100%;
 	height:auto;
 }
