@@ -185,7 +185,7 @@ div#latest-work .caroufredsel_wrapper{width:420px !important;}
 #header{text-align:center;height:auto;}
 .welcome h1{font-size:24px;line-height:24px;}
 #menu{padding-top:0;display:none;}
-.res-menu{width:238px;color:#f9a7b0;padding:10px;margin:0 auto;background-color:#333;border:1px solid #222;}
+.res-menu{width:238px;color:#F96172;padding:10px;margin:0 auto;background-color:#E8E8E8;border:2px solid #B4ACB7;font-size:16px;}
 #social li{margin-left:9px;}
 #social li:first-of-type{margin-left:0;}
 .features div{margin-right:0;padding-right:0;border-right:none;margin-bottom:30px;padding-bottom:30px;border-bottom:1px dashed #E5E5E5;}

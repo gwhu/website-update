@@ -144,7 +144,7 @@
 <div id="header" class="wrapper"> 
 <p>&nbsp;</p>
     <!-- BEGIN: #logo-->
-    <a id="logo" href="./index.html"><img src="images/logo2.png" alt="Go back to home page" /></a><!-- END: #logo -->
+    <a id="logo" href="./index.html"><img src="images/logo.png" alt="Go back to home page" /></a><!-- END: #logo -->
     
     <div class="clear"></div> 
 
@@ -168,7 +168,7 @@
 <div id="slider" class="wrapper loader">
     <ul class="slides">
         <li>
-            <img src="images/slides/main/main-image.jpg" alt="Photo of wedding"/>
+            <img src="images/slides/testimonials/happy-couple-in-courtyard.jpg" alt="Photo of wedding"/>
         </li>      
     </ul>
 </div><!-- END: #slider --> 
@@ -189,20 +189,19 @@
 <div class="clear"></div>
 <div class="divider"></div>
 
-    <div class="welcome">
+
+
+    <div id="homePagePlayer" class="one-two">
+
         <h2>Listen To Eileen Coyle</h2>
-    </div>
 
-    <div class="clear"></div>
-
-    <div class="one-one">
         <div id="componentWrapper" class="player-small">        
              <div class="playerHolder">                 
                   <div class="player_controls">
-                      <div class="controls_prev"><img src='images/audioplayer/prev.png' width='25' height='26' alt='controls_prev'/></div>
-                      <div class="controls_toggle"><img src='images/audioplayer/play.png' width='30' height='31' alt='controls_toggle'/></div>
-                      <div class="controls_next"><img src='images/audioplayer/next.png' width='25' height='26' alt='controls_next'/></div>
-                      <div class="player_volume"><img src='images/audioplayer/volume.png' width='25' height='26' alt='player_volume'/></div>
+                      <div class="controls_prev"><img src='images/audioplayer/prev.png' width='25' height='26' alt='Previous song'/></div>
+                      <div class="controls_toggle"><img src='images/audioplayer/play.png' width='30' height='31' alt='Play or stop a song'/></div>
+                      <div class="controls_next"><img src='images/audioplayer/next.png' width='25' height='26' alt='Next song'/></div>
+                      <div class="player_volume"><img src='images/audioplayer/volume.png' width='25' height='26' alt='Change volume'/></div>
                       <div class="volume_seekbar">
                          <div class="volume_bg"></div>
                          <div class="volume_level"></div>
@@ -213,9 +212,11 @@
                       <div class="load_progress"></div>
                       <div class="play_progress"></div>
                   </div>
+                  <!--
                   <div class="player_mediaName_Mask"><h5><span class="plTitle">Now Playing:</span></h5> 
                       <div class="player_mediaName">Artist Name - Artist Title</div>
-                  </div>             
+                  </div>    
+                  -->         
              </div>              
              <div class="playlistHolder">
                  <div class="componentPlaylist">
@@ -226,66 +227,45 @@
              </div>
             <div class="fontMeasure"></div>
         </div>  
+
+        <br>
     </div>
 
-    <div class="divider"></div>
 
-    <div class="welcome">
+    <div class="one-two last">
+
         <h2>Testimonials</h2>
-    </div>
 
     <!--BEGIN: .testimonial-->
-    <div class="one-one">
     <!--
         <div class="divider-text">
             <a href="#" class="margin-l">prev &amp; next</a>
         </div>
-    -->
+
         <div id="testimonial" class="carousel">
             <div class="carousel-wrapper">
+
                 <ul>
                     <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
+                        <div><img src="images/site_imgs/flowers.jpg" alt="Image" /></div>
                         <p class="testimonial">
                             Just wanted to say thank you so so much! The music at the wedding was absolutely beautiful, exactly what we wanted!
                         </p>
                         <p class="client">Heather</p>
-                    </li><!-- END: testimonial 1 -->  
+                    </li>
                     
-                    <!-- BEGIN: testimonial 2 -->
                     <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
+                        <div><img src="images/site_imgs/flowers.jpg" alt="Image" /></div>
                         <p class="testimonial">
                             You sounded fantastic. You were an integral part of making the ceremony so special!
                         </p>
-                        <p class="client">Shelly</p>
-                    </li><!-- END: testimonial 2 -->  
-                    
-                    <!-- BEGIN: testimonial 3 -->
-                    <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
-                        <p class="testimonial">
-                           Thanks for all your help and musical knowledge over the past couple of months, it's really appreciated!
-                        </p>
-                        <p class="client">Mary</p>
-                    </li><!-- END: testimonial 3 -->  
-                    
-                    <!-- BEGIN: testimonial 4 -->
-                    <li>
-                        <div><img src="images/site_imgs/tesimonials1.jpg" alt="Image" /></div>
-                        <p class="testimonial">
-                            The music was just what we wanted, and helped make the ceremony extra special for both of us!
-                        </p>
-                        <p class="client">Marie</p>
-                    </li><!-- END: testimonial 4 -->  
-                    
+                        <p class="client">Shelly and Trevor</p>
+                    </li> 
+       
                 </ul>
             </div>
 
-            <div id="testimonialHeader" class="welcome">
-                <a href="./testimonials.html" class="linkButton">More testimonials...</a>
-            </div>
-        </div><!-- END: #testimonials -->  
+        </div>
         <script type="text/javascript">
             $(document).ready(function(){
                 $('#testimonial').elastislide({
@@ -294,10 +274,21 @@
                 });
             });
         </script>
-    </div><!--END: .testimonial-->
+    </div>    -->
+        <div id="testimonial">
+            <div class="testimonialPreview">
+                <div class="testimonialPreviewImage"><img src="images/slides/testimonials/bride-and-groom.jpg" alt="Image of bride and groom at a wedding" /></div>
+                <p class="testimonial">
+                    Just wanted to say thank you so so much! The music at the wedding was absolutely beautiful, exactly what we wanted!
+                </p>
+                <p class="client">Heather</p>
+            </div>
+        </div>
+    </div>
+
     
     <div class="clear hide"></div>
-    <div class="divider hide"></div>
+
     <!--
     <div class="one-two last">    
         <h3>Audio Samples (More samples on about page)</h3>
@@ -343,9 +334,12 @@
     <div class="divider"></div>
     
     <div class="welcome">
-        <h2>Want to enquire about availability?</h2>
-        
-        <p> <a href="./contact.html" class="linkButton">Contact Eileen</a></p> 
+        <h2>Contact</h2>
+        <p><a href="pdfs/Eileen_Coyle_Music_Guide.zip" class="linkButton">Eileen's Wedding Music Guide</a> - Including a complete Repertoire List and Example Ceremonies with Songlists</p>  
+
+
+        <p>Call now for a quote on</p>
+        <a id="contactPhone" href="tel:(087) 3892280">(087) 3892280</a>
     </div>
         
   <div class="clear"></div> 
