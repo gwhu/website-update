@@ -1,5 +1,12 @@
 $(document).ready(function(){
     
+    // YURI - add a sneaky script that always updates website ... at least in theory 
+    $(".dateTime").text(function(){
+        var dateObj = new Date();
+        var year = dateObj.getUTCFullYear();
+        return year;
+    });
+
     $('.features div:last, .newsletters div:last, .about-work > div:last, .team > div:last, .related-post > div:last').addClass('last');
     
     $('a[data-rel]').each(function() {
@@ -176,7 +183,7 @@ $(window).load(function() {
 $('#slider').flexslider({
         animation: "fade",
         slideshow: true, 
-        slideshowSpeed: 8000,
+        slideshowSpeed: 4000,
         animationDuration: 600,   
         directionNav: false,
         controlNav: false,
@@ -192,7 +199,7 @@ $('#slider').flexslider({
 	    $('#abt-slider').flexslider({
         animation: "fade",
         slideshow: true, 
-        slideshowSpeed: 8000,
+        slideshowSpeed: 4000,
         animationDuration: 600,   
         directionNav: false,
         controlNav: false,
@@ -204,7 +211,12 @@ $('#slider').flexslider({
 	
 	
 	// SOUND CLOUD PLAYER
-	$.html5audio('#componentWrapper', ap_settings, 'sound_id1');
-	ap_settings = null;
-    
+	try {
+        $.html5audio('#componentWrapper', ap_settings, 'sound_id1');
+    	ap_settings = null;
+    }
+    catch(err) {
+
+    }
+
 });
