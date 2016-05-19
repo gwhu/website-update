@@ -1,12 +1,12 @@
 .auTitle{padding-left:24px;font-size:14px;}
-.author{font-size:16px;font-family:'Rokkitt', serif;color:#D65353;padding-bottom:20px;}
-.plTitle{padding-left:26px;font-size:14px;color:#FF8593;}
+.author{font-size:16px;font-family:'Rokkitt', serif;color:#F96172;padding-bottom:20px;}
+.plTitle{padding-left:26px;font-size:16px;color:#FF8593;}
 body{background-color:#3e3631;color:#746251;font-size:12px;line-height:20px;font-family:'Arial', sans-serif;}
 h1, h2, h3, h4, h5, h6{font-weight:bold;font-family:'Rokkitt', serif;}
-h1{font-size:24px;margin-bottom:30px;line-height:30px;color:#D65353;}
-h2{font-size:20px;margin-bottom:20px;line-height:25px;color:#D65353;}
+h1{font-size:24px;margin-bottom:30px;line-height:30px;color:#F96172;}
+h2{font-size:20px;margin-bottom:20px;line-height:25px;color:#F96172;}
 h3{font-size:18px;margin-bottom:10px;line-height:25px;color:#746251;}
-h4{font-size:16px;margin-bottom:8px;line-height:22px;color:#D65353;}
+h4{font-size:16px;margin-bottom:8px;line-height:22px;color:#F96172;}
 h5{font-family:'Rokkitt', serif;font-size:14px;margin-bottom:5px;line-height:20px;color:#433324;}
 h6{font-size:12px;margin-bottom:3px;line-height:18px;color:#746251;}
 h2.title{font-size:16px;font-weight:normal;margin-bottom:8px;padding-bottom:0;}
@@ -16,8 +16,8 @@ em{font-style:italic;}
 p{margin-bottom:15px;}
 * p:last-child{margin-bottom:0 !important;}
 .color{color:#ede5db;}
-a{font-size:14px;color:#FF8593;font-family:'Rokkitt', serif;text-decoration:none;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear;}
-a:hover{color:#ef2a47 !important;}
+a{font-size:16px;color:#FF8593;font-family:'Rokkitt', serif;text-decoration:none;-webkit-transition:all .2s linear;-moz-transition:all .2s linear;-o-transition:all .2s linear;-ms-transition:all .2s linear;transition:all .2s linear;}
+a:hover{color:#ff6978 !important;}
 .linkButton{padding:3px 0px 3px 0px;border-bottom:1px solid rgba(249,147,14,0.3);}
 .read{padding-right:15px;display:inline-block;text-transform:capitalize;background:url(../images/arrow-readmore-hover.png) no-repeat center right;}
 .read:hover{background:url(../images/arrow-readmore.png) no-repeat center right;}
@@ -126,7 +126,7 @@ html[xmlns] .slides{display:block;}
 #client-logo li{float:left;line-height:0 !important;width:16.66666666666667%;text-align:center;}
 #testimonial li div{overflow:hidden;width:15%;-webkit-border-radius:50px;border-radius:50px;float:left;margin-right:30px;padding:0!important;line-height:0;-moz-box-sizing:border-box;}
 #testimonial .testimonial{padding-top:5px;margin-bottom:5px;line-height:22px;font-size:12px;font-style:italic;font-family:'Droid Serif', serif;}
-#testimonial .client{color:#D65353;font-family:'Rokkitt', serif;font-size:14px;font-weight:bold;font-family:'Rokkitt', Georgia, Times, serif;}
+#testimonial .client{color:#F96172;font-family:'Rokkitt', serif;font-size:14px;font-weight:bold;font-family:'Rokkitt', Georgia, Times, serif;}
 #newsletters .graphic img{overflow:hidden;width:15%;-webkit-border-radius:50px;border-radius:50px;float:left;margin-right:30px;padding:0!important;line-height:0;-moz-box-sizing:border-box;}
 #newsletters .graphic a{padding-bottom:5px;}
 #newsletters .graphic p.news-date{color:#888888;font-size:10px;margin-bottom:0px;padding-top:5px;text-transform:uppercase;}
@@ -379,7 +379,7 @@ blockquote-r p{padding:20px;font-size:14px;letter-spacing:0.03em;font:italic 12p
 code, pre{margin-bottom:15px;border:1px dashed #242424;border-left:3px solid #242424;padding:15px;background-color:#1f1f1f;font:11px Consolas,"Courier New",Courier,monospace;line-height:14px;overflow:hidden;margin-top:15px;}
 code:hover, pre:hover{overflow:auto;}
 .highlight{padding:1px 5px;color:#222222;background-color:#FF8593;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;font-size:11px;}
-p.dropcap:first-letter{display:block;float:left;font-size:30px;margin:0px 10px 0 0;color:#D65353;font:italic 30px 'Droid Serif', Georgia, Times, serif !important;}
+p.dropcap:first-letter{display:block;float:left;font-size:30px;margin:0px 10px 0 0;color:#F96172;font:italic 30px 'Droid Serif', Georgia, Times, serif !important;}
 p.dropcap2:first-letter,
 p.dropcap3:first-letter{display:block;float:left;font-size:30px;line-height:10px;margin:5px 10px 0 0;padding:10px;color:#ede5db;background-color:#FF8593;height:2.2em;font:italic 2.2em/2.2em 'Droid Serif', Georgia, Times, serif !important;}
 p.round:first-letter{-moz-border-radius:33px;-webkit-border-radius:33px;border-radius:33px;}
