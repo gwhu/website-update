@@ -422,3 +422,4 @@ p.round:first-letter{-moz-border-radius:33px;-webkit-border-radius:33px;border-r
 .toggle.active{color:#909090 !important;}
 .songList {margin-bottom:30px;}
 .songList h1 {margin-bottom:15px;}
+#newSongList{text-align:left;}
