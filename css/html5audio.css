@@ -179,7 +179,13 @@
 	/*background:green;*/
 }
 
-#homePagePlayer .player_progress{width:75%;}
+#homePagePlayer {padding-left:150px;box-sizing:border-box;}
+#homePagePlayer .player_progress, #listenPage .player_progress{width:196px;}
+
+@media only screen and (max-width: 900px) {
+	#homePagePlayer {padding-left:0px;}
+	#homePagePlayer .player_progress, #listenPage .player_progress{width:100%;margin-left:0px;}
+}
 
 #componentWrapper .progress_bg{
 	position:absolute;
@@ -231,9 +237,6 @@
 	font-size:10px;
 }
 
-
-
-
 /* playlist holder */	
 #componentWrapper .playlistHolder{
 	position:absolute;
@@ -260,11 +263,6 @@
 	margin-bottom:30px;
 	font-family:Arial, Helvetica, sans-serif!important;
 }
-
-
-
-
-
 
 /* playlist items */	
 #componentWrapper .componentPlaylist .playlistItem{
@@ -303,15 +301,6 @@
 	color: #666;
 }
 
-
-
-
-
-
-
-
-
-
 /* for parsing feed xml */	
 #componentWrapper .feedParser{
 	display:none;
@@ -325,7 +314,6 @@
 	visibility:hidden;
 }
 					  
-
 /* public functions */	
 #publicFunctions{
 	position: absolute;
