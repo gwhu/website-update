@@ -90,7 +90,7 @@ html[xmlns] .slides{display:block;}
 #slider:hover .flex-direction-nav a,
 .slider-blog:hover .flex-direction-nav a{display:block;}
 .welcome{line-height:22px;text-align:center;color:#666;font-size:13px;}
-.welcome h1{font-size:28px;letter-spacing:0.05em;text-transform:uppercase;}
+.welcome h1{font-size:28px;letter-spacing:0.05em;}
 .welcome p{line-height:22px;font-size:14px;font-style:italic;font-family:'Droid Serif', serif;color:#746251;}
 .welcome a{line-height:22px;font-size:14px;font-style:italic;font-family:'Droid Serif', serif;color:#FF8593;}
 .testim-image{width:150px;height:150px;border-radius:75px;float:left;overflow:hidden;margin-right:40px;}
