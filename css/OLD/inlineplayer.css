@@ -1,0 +1,19 @@
+ul.flat{list-style-type:none;padding-left:0px;}
+ul.flat li,
+ul.graphic li{padding-bottom:1px;}
+ul.flat li a{display:inline-block;padding:2px 4px 2px 4px;}
+ul.graphic{list-style-type:none;padding-left:0px;margin-left:0px;}
+ul.graphic li{margin-bottom:2px;}
+ul.graphic li a,
+ul.graphic li a.sm2_link{display:inline-block;border-radius:3px;padding:0px;}
+ul.graphic li a.sm2_link{-webkit-transition-property:hover;-webkit-transition:background-color 0.15s linear;-moz-transition:background-color 0.15s linear 0s;-o-transition-property:background-color;-o-transition-duration:0.15s;}
+ul.graphic li a,
+ul.graphic li a.sm2_paused:hover,
+ul.graphic li a.sm2_link:hover{background-image:url(../images/soundmanager/icon_play.png);background-repeat:no-repeat;_background-image:url(../images/soundmanager/icon_play.gif);}
+ul.graphic li a.sm2_link:hover{color:#ffb6c1;}
+ul.graphic li a.sm2_paused{}
+ul.graphic li a.sm2_paused:hover{background:url(../images/soundmanager/icon_play.png) no-repeat;_background-image:url(../images/soundmanager/icon_play.gif);}
+ul.graphic li a.sm2_playing,
+ul.graphic li a.sm2_playing:hover{background:url(../images/soundmanager/icon_pause.png) no-repeat;_background-image:url(../images/soundmanager/icon_pause.gif);text-decoration:none;}
+body #sm2-container object,
+body #sm2-container embed{left:-9999em;top:-9999em;}
