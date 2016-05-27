@@ -28,8 +28,8 @@ $formsent = mail($mailto, 'Mail From EileenCoyle.com', $message, $headers);
 ini_restore(sendmail_from);
 
 if ($formsent) {
-	echo "<h5>Thank you ".$author.",</h5><p>We have received your e-mail, and will respond promptly to your inquiry.</p>".'<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1000237847/?label=1moACMj-ulcQl9b53AM&amp;guid=ON&amp;script=0"/><br><a href="www.eileencoyle.com">Go back to main site</a>';
+	echo "<h5>Thank you ".$author.",</h5><p>We have received your e-mail, and will respond promptly to your inquiry.</p>".'<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/1000237847/?label=1moACMj-ulcQl9b53AM&amp;guid=ON&amp;script=0"/><br><a href="/">Go back to main site</a>';
 }else{
-	echo 'Sorry, there is a problem with your form. <a href="www.eileencoyle.com">Please try again!.</a>';
+	echo 'Sorry, there is a problem with your form. <a href="/contact.html">Please try again!.</a>';
 	}
 ?>
