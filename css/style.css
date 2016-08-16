@@ -1,5 +1,5 @@
 .player-small{height:200px;overflow:hidden;}
-.player-large{height:300px;overflow:hidden;}
+.player-large{height:310px;overflow:hidden;}
 .player-large .playlistHolder{overflow:scroll;}
 #componentWrapper{position:relative;width:100%;margin:-30px 0 0 -20px;}
 #componentWrapper .playerHolder{position:absolute;top:0px;left:-10px;width:100%;margin-top:15px;}
@@ -539,7 +539,7 @@ img{max-width:100%;height:auto;}
 .border-img a.img-view{left:0px;top:0;width:100%;height:100%;background:url('../images/view.png') no-repeat;}
 .border-img a.img-link{display:none;right:0px;background:url('../images/link.png') no-repeat;}
 .border-img a:hover{background-position:0 0px;}
-#divider-major{background-color:#e8e8e8;margin: 0 auto; padding: 0px 30px 0px 30px; position: relative; background-image: linear-gradient(to right, transparent, #746251, transparent); height:1px; } 
+#divider-major{background-color:#e8e8e8;margin: 0 auto; padding: 0px 30px 0px 30px; position: relative; background-image: linear-gradient(to right, transparent, #746251, transparent); height:1px; }
 .divider{height:1px;margin:30px 0;background-image:linear-gradient(to right, transparent, rgba(0,0,0,0.15), transparent);}
 .divider-top{height:1px;margin:0 0 40px 0;}
 .divider.mob{display:none;}
